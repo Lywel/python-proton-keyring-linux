@@ -3,7 +3,7 @@
 
 pkgname=python-proton-keyring-linux
 pkgver=0.2.3
-pkgrel=1
+pkgrel=2
 pkgdesc="The proton-keyring-linux component."
 arch=(any)
 url="https://github.com/ProtonVPN/python-proton-keyring-linux"
@@ -13,7 +13,6 @@ depends=(
   python-keyring
   python-proton-core
   org.freedesktop.secrets
-  gnome-keyring
 )
 makedepends=(
   git
